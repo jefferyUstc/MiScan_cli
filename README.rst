@@ -3,7 +3,7 @@
 .. |PyPI| image:: https://img.shields.io/pypi/v/miscan.svg
    :target: https://pypi.org/project/MiScan/
    
-.. |Docs| image:: https://readthedocs.com/projects/miscan-cli/badge/?version=latest
+.. |Docs| image:: https://readthedocs.org/projects/miscan-cli/badge/?version=latest
    :target: https://miscan-cli.readthedocs.io
 
 MiScan
