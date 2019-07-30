@@ -11,7 +11,7 @@
 .. |Docker| image:: https://img.shields.io/docker/cloud/automated/jefferyustc/miscan_command_line
     :alt: Docker Cloud Automated build
 
-.. |Licence| image:: https://img.shields.io/github/license/jefferyUstc/MiScan_cli   :alt: GitHub
+.. |Licence| image:: https://img.shields.io/github/license/jefferyUstc/MiScan_cli
     :alt: Apache License version2
     :target: http://www.apache.org/licenses/
 
