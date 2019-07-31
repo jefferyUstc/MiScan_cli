@@ -1,4 +1,4 @@
-|Tag| |PyPI| |Docs| |Docker| |Licence|
+|Tag| |PyPI| |Status| |Docs| |Docker| |Licence|
 
 .. |PyPI| image:: https://img.shields.io/pypi/v/miscan.svg
     :alt: Docker Cloud Automated build
@@ -17,6 +17,9 @@
 
 .. |Tag| image:: https://img.shields.io/github/tag-date/jefferyustc/MiScan_cli
     :alt: GitHub tag (latest by date)
+
+.. |Status| image:: https://img.shields.io/pypi/status/MiScan
+    :alt: PyPI - Status
 
 
 MiScan
