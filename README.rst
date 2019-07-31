@@ -1,4 +1,4 @@
-|PyPI| |Docs| |Docker| |Licence|
+|Tag| |PyPI| |Docs| |Docker| |Licence|
 
 .. |PyPI| image:: https://img.shields.io/pypi/v/miscan.svg
     :alt: Docker Cloud Automated build
@@ -14,6 +14,10 @@
 .. |Licence| image:: https://img.shields.io/github/license/jefferyUstc/MiScan_cli
     :alt: Apache License version2
     :target: http://www.apache.org/licenses/
+
+.. |Tag| image:: https://img.shields.io/github/tag-date/jefferyustc/MiScan_cli
+    :alt: GitHub tag (latest by date)
+
 
 MiScan
 ==========
