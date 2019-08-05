@@ -6,7 +6,7 @@ PyPI only
 
 you can easily run::
 
-    pip install scanpy[louvain]
+    pip install MiScan
 
 
 Development Version
