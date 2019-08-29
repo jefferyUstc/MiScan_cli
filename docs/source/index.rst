@@ -26,14 +26,14 @@
 .. |Status| image:: https://img.shields.io/pypi/status/MiScan
     :alt: PyPI - Status
 
+MiScan: Maxout-inferred SNV-based cancer prediction model
+==============================================================
 |
-
 .. image:: ./_static/route.png
 
 |
 
-MiScan: Maxout-inferred SNV-based cancer prediction model
-==============================================================
+
 
 Here we present a Maxout-inferred SNV-based cancer prediction model (MiScan) for screening of breast cancer patients
 using genotype information from blood samples. We coarsened 119,318 variants into 13,885 genomic windows, and trained
