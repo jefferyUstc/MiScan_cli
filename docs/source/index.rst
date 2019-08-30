@@ -33,14 +33,14 @@
 
 MiScan: Maxout-inferred SNV-based cancer prediction model
 ==============================================================
+
 |
+
 .. image:: ./_static/route.png
 
 |
 
-
-
-Here we present a Maxout-inferred SNV-based cancer prediction model (MiScan) for screening of breast cancer patients
+Here we present a Maxout-inferred SNV-based can cer prediction model (MiScan) for screening of breast cancer patients
 using genotype information from blood samples. We coarsened 119,318 variants into 13,885 genomic windows, and trained
 MiScan with coarse-grained mutation information from 986 breast cancer patients and 2,003 healthy people. To promote
 the application of MiScan for breast cancer prediction and prevention, we established an interactive website_, which

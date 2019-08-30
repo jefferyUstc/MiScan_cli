@@ -1,7 +1,7 @@
 Installation
 ================
 
-Attention: Before all, users have to install `bedtools`, please refer to bedtool-documentation_, then be sure to export the
+Attention: Before all, users have to install ``bedtools``, please refer to bedtool-documentation_, then be sure to export the
 bedtools to environment path.
 
 PyPI only
