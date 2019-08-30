@@ -3,7 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-|Tag| |PyPI| |Status| |Docs| |Docker| |Licence|
+|Tag| |Licence| |Docker|
+
+|PyPI| |Travis| |Docs| |Status|
 
 .. |PyPI| image:: https://img.shields.io/pypi/v/miscan.svg
     :alt: PyPI latest version
@@ -25,6 +27,9 @@
 
 .. |Status| image:: https://img.shields.io/pypi/status/MiScan
     :alt: PyPI - Status
+
+.. |Travis| image:: https://img.shields.io/travis/com/jefferyustc/MiScan_cli
+     :alt: Travis (.com)
 
 MiScan: Maxout-inferred SNV-based cancer prediction model
 ==============================================================
