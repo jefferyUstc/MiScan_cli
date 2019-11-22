@@ -143,12 +143,14 @@ def generate_report(inDir, outDir, y_pred_pat):
 
     axes[2].set_position(Bbox([[0.09, 0.57], [0.95, 0.83]]))
 
-    trainPat_ay = np.loadtxt(inDir[0])
-    trainNorm_ay = np.loadtxt(inDir[1])
+    train_pat = pd.read_csv(inDir[0], header=None).values
+    train_norm = pd.read_csv(inDir[1], header=None).values
+    train_pat = np.squeeze(train_pat)
+    train_norm = np.squeeze(train_norm)
 
-    g = sns.kdeplot(list(trainPat_ay), label='trainPat', ax=axes[2],
+    g = sns.kdeplot(train_pat, label='trainPat', ax=axes[2],
                     shade=True, color='#ffb7ce')
-    g = sns.kdeplot(list(trainNorm_ay), label='trainNorm', ax=axes[2],
+    g = sns.kdeplot(train_norm, label='trainNorm', ax=axes[2],
                     shade=True, color='#95d0fc')
     axes[2].set_xlabel('Cancer risk', size=15)
     axes[2].set_ylabel('Density', size=15)
