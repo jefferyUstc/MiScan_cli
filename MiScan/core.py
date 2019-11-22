@@ -145,9 +145,8 @@ def generate_report(inDir, outDir, y_pred_pat):
 
     train_pat = pd.read_csv(inDir[0], header=None).values
     train_norm = pd.read_csv(inDir[1], header=None).values
-    train_pat = np.squeeze(train_pat)
-    train_norm = np.squeeze(train_norm)
-
+    train_pat = np.squeeze(train_pat, axis=1)
+    train_norm = np.squeeze(train_norm, axis=1)
     g = sns.kdeplot(train_pat, label='trainPat', ax=axes[2],
                     shade=True, color='#ffb7ce')
     g = sns.kdeplot(train_norm, label='trainNorm', ax=axes[2],
