@@ -7,7 +7,7 @@ with open("README.rst", "r") as fh:
 
 setuptools.setup(
     name="MiScan",
-    version="1.1",
+    version="1.1.1",
     author='Qulab USTC',
     author_email="jeffery_cpu@163.com",
     description="MiScan: mutation-inferred screening model of cancer",
