@@ -10,9 +10,9 @@ setuptools.setup(
     version="1.1",
     author='Qulab USTC',
     author_email="jeffery_cpu@163.com",
-    description="Maxout-inferred SNV-based cancer prediction model",
+    description="MiScan: mutation-inferred screening model of cancer",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     url="https://github.com/QuKunLab/MiScan",
     project_urls={
         'MiScan website': 'http://qulab.ustc.edu.cn/miscan',
